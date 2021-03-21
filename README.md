@@ -1,3 +1,4 @@
+#Armen has taken over this readme
 # QSTrader for Advanced Algorithmic Trading
 
 QSTrader is an open-source event-driven backtesting platform for use in the equities markets. The majority of strategies within the [Advanced Algorithmic Trading](https://www.quantstart.com/advanced-algorithmic-trading-ebook/) ebook utilise QSTrader as the backtesting framework.
