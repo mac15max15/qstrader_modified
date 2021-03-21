@@ -583,6 +583,7 @@ class TearsheetStatistics(AbstractStatistics):
         """
         Plot the Tearsheet
         """
+        print("sdfasdflsakdhfaslkas")
         rc = {
             'lines.linewidth': 1.0,
             'axes.facecolor': '0.995',
