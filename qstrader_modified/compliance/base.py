@@ -4,7 +4,7 @@ from abc import ABCMeta, abstractmethod
 class AbstractCompliance(object):
     """
     The Compliance component should be given every trade
-    that occurs in qstrader.
+    that occurs in qstrader_modified.
 
     It is designed to keep track of anything that may
     be required for regulatory or audit (or debugging)

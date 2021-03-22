@@ -9,7 +9,7 @@ $ nosetests -s -v examples/test_examples.py:TestExamples.test_strategy_backtest
 import os
 import unittest
 
-from qstrader import settings
+from qstrader_modified import settings
 import examples.buy_and_hold_backtest
 import examples.moving_average_cross_backtest
 import examples.monthly_liquidate_rebalance_backtest

@@ -1,7 +1,7 @@
 import unittest
 
-from qstrader.position import Position
-from qstrader.price_parser import PriceParser
+from qstrader_modified.position import Position
+from qstrader_modified.price_parser import PriceParser
 
 
 class TestRoundTripXOMPosition(unittest.TestCase):

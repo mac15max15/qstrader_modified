@@ -1,10 +1,10 @@
 import unittest
 
-from qstrader.price_handler.base import AbstractBarPriceHandler
-from qstrader.order.suggested import SuggestedOrder
-from qstrader.price_parser import PriceParser
-from qstrader.portfolio import Portfolio
-from qstrader.position_sizer.rebalance import LiquidateRebalancePositionSizer
+from qstrader_modified.price_handler.base import AbstractBarPriceHandler
+from qstrader_modified.order.suggested import SuggestedOrder
+from qstrader_modified.price_parser import PriceParser
+from qstrader_modified.portfolio import Portfolio
+from qstrader_modified.position_sizer.rebalance import LiquidateRebalancePositionSizer
 
 
 class PriceHandlerMock(AbstractBarPriceHandler):

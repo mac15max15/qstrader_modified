@@ -1,9 +1,9 @@
 import unittest
 
-from qstrader.price_parser import PriceParser
-from qstrader.price_handler.historic_csv_tick import HistoricCSVTickPriceHandler
-from qstrader.compat import queue
-from qstrader import settings
+from qstrader_modified.price_parser import PriceParser
+from qstrader_modified.price_handler.historic_csv_tick import HistoricCSVTickPriceHandler
+from qstrader_modified.compat import queue
+from qstrader_modified import settings
 
 
 class TestPriceHandlerSimpleCase(unittest.TestCase):

@@ -1,8 +1,8 @@
 import unittest
 
-from qstrader.portfolio import Portfolio
-from qstrader.price_parser import PriceParser
-from qstrader.price_handler.base import AbstractTickPriceHandler
+from qstrader_modified.portfolio import Portfolio
+from qstrader_modified.price_parser import PriceParser
+from qstrader_modified.price_handler.base import AbstractTickPriceHandler
 
 
 class PriceHandlerMock(AbstractTickPriceHandler):

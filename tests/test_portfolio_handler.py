@@ -2,10 +2,10 @@ import datetime
 from decimal import Decimal
 import unittest
 
-from qstrader.event import FillEvent, OrderEvent, SignalEvent
-from qstrader.portfolio_handler import PortfolioHandler
-from qstrader.price_handler.base import AbstractTickPriceHandler
-from qstrader.compat import queue
+from qstrader_modified.event import FillEvent, OrderEvent, SignalEvent
+from qstrader_modified.portfolio_handler import PortfolioHandler
+from qstrader_modified.price_handler.base import AbstractTickPriceHandler
+from qstrader_modified.compat import queue
 
 
 class PriceHandlerMock(AbstractTickPriceHandler):

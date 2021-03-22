@@ -1,12 +1,12 @@
 import calendar
 import datetime
 
-from qstrader import settings
-from qstrader.strategy.base import AbstractStrategy
-from qstrader.position_sizer.rebalance import LiquidateRebalancePositionSizer
-from qstrader.event import SignalEvent, EventType
-from qstrader.compat import queue
-from qstrader.trading_session import TradingSession
+from qstrader_modified import settings
+from qstrader_modified.strategy.base import AbstractStrategy
+from qstrader_modified.position_sizer.rebalance import LiquidateRebalancePositionSizer
+from qstrader_modified.event import SignalEvent, EventType
+from qstrader_modified.compat import queue
+from qstrader_modified.trading_session import TradingSession
 
 
 class MonthlyLiquidateRebalanceStrategy(AbstractStrategy):
