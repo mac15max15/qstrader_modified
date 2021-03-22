@@ -2,10 +2,10 @@ import unittest
 
 from test_portfolio import PriceHandlerMock
 
-from qstrader_modified import settings
-from qstrader_modified.price_parser import PriceParser
-from qstrader_modified.portfolio import Portfolio
-from qstrader_modified.statistics.simple import SimpleStatistics
+from qst import settings
+from qst.price_parser import PriceParser
+from qst.portfolio import Portfolio
+from qst.statistics.simple import SimpleStatistics
 
 
 class PortfolioHandlerMock(object):

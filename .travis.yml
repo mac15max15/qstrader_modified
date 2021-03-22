@@ -34,8 +34,8 @@ install:
   - python setup.py install
 
 script:
-    - nosetests -v --with-coverage --cover-package=qstrader_modified --with-timer
-    - flake8 --ignore E501,W504,F811 tests examples qstrader_modified
+    - nosetests -v --with-coverage --cover-package=qst --with-timer
+    - flake8 --ignore E501,W504,F811 tests examples qst
 
 after_success:
   - coveralls

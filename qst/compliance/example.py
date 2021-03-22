@@ -1,7 +1,7 @@
 import datetime
 import os
 import csv
-from qstrader_modified.price_parser import PriceParser
+from qst.price_parser import PriceParser
 
 from .base import AbstractCompliance
 

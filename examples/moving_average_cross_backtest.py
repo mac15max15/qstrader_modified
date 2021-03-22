@@ -3,11 +3,11 @@ import datetime
 
 import numpy as np
 
-from qstrader_modified import settings
-from qstrader_modified.strategy.base import AbstractStrategy
-from qstrader_modified.event import SignalEvent, EventType
-from qstrader_modified.compat import queue
-from qstrader_modified.trading_session import TradingSession
+from qst import settings
+from qst.strategy.base import AbstractStrategy
+from qst.event import SignalEvent, EventType
+from qst.compat import queue
+from qst.trading_session import TradingSession
 
 
 class MovingAverageCrossStrategy(AbstractStrategy):

@@ -1,7 +1,7 @@
 import unittest
 import numpy as np
-from qstrader_modified.price_parser import PriceParser
-from qstrader_modified.compat import PY2
+from qst.price_parser import PriceParser
+from qst.compat import PY2
 
 
 class TestPriceParser(unittest.TestCase):

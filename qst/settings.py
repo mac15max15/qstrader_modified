@@ -6,7 +6,7 @@ from munch import munchify, unmunchify
 
 
 ENV_VAR_ROOT = 'QSTRADER'
-DEFAULT_CONFIG_FILENAME = '~/qstrader_modified.yml'
+DEFAULT_CONFIG_FILENAME = '~/qst.yml'
 
 
 def from_env(key, default_value=None, root=ENV_VAR_ROOT):

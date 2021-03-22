@@ -3,8 +3,8 @@ Test scripts
 """
 import unittest
 
-from qstrader_modified import settings
-import qstrader_modified.scripts.generate_simulated_prices
+from qst import settings
+import qst.scripts.generate_simulated_prices
 
 
 class TestScripts(unittest.TestCase):
@@ -21,7 +21,7 @@ class TestScripts(unittest.TestCase):
         """
         Test generate_simulated_prices
         """
-        qstrader_modified.scripts.generate_simulated_prices.run(
+        qst.scripts.generate_simulated_prices.run(
             '',  # outdir
             'GOOG',  # ticker
             700,  # init_price
