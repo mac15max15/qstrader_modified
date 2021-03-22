@@ -14,7 +14,7 @@ except(IOError, ImportError):
     print("Can't import pypandoc - using README.md without converting to RST")
     long_description = open('README.md').read()
 
-NAME = 'qstrader'
+NAME = 'qstrader_modified'
 with io.open(path.join(here, NAME, 'version.py'), 'rt', encoding='UTF-8') as f:
     exec(f.read())
 
